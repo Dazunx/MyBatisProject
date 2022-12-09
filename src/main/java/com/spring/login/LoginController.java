@@ -32,7 +32,6 @@ public class LoginController {
             returnURL = "redirect:/music/list";
         } else {
             System.out.println("로그인 실패!");
-            System.out.println(loginvo);
             returnURL = "redirect:/login/login";
         }
         return returnURL;
